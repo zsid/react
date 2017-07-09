@@ -15,6 +15,6 @@ module.exports = {
         "react/forbid-prop-types": OFF,
         "dot-notation": OFF,
         "react/no-array-index-key": OFF,
-        "react/require-default-props": OFF
+        "react/require-default-props": OFF,
     }
 };
