@@ -23,6 +23,7 @@ exports.loadJavascript = () => ({
         loader: 'babel-loader',
         include: PATHS.app,
         query: {
+          cacheDirectory: true,
           presets: ["react", "es2015", "stage-2"]
         }
       }
@@ -87,3 +88,7 @@ exports.loadCSS = () => ({
     ]
   }
 })
+
+exports.generateSourceMaps = ({ type }) => ({
+  devtool: type,
+});

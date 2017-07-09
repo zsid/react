@@ -38,7 +38,6 @@ const commonConfig = merge([
     performance: {
       hints: false,
     },
-    devtool: "source-map",
   },
   parts.loadJavascript(),
   parts.loadCSS(),
@@ -46,6 +45,7 @@ const commonConfig = merge([
 
 const developmentConfig = merge([
   parts.devServer(),
+  parts.generateSourceMaps({ type: 'cheap-module-source-map' }),
 ]);
 
 const productionConfig = {};
