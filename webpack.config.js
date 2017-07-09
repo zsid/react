@@ -42,6 +42,11 @@ const commonConfig = merge([
   parts.loadJavascript(),
   parts.loadCSS(),
   parts.lintJavascript(),
+  parts.loadFonts({
+    options: {
+      name: '[name].[ext]',
+    },
+  }),
 ]);
 
 const developmentConfig = merge([

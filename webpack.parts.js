@@ -105,6 +105,41 @@ exports.loadCSS = () => ({
   },
 });
 
+exports.loadImages = () => ({
+  module: {
+    rules: [
+      {
+        test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 10000,
+            name: '[name].[ext]',
+          },
+        },
+      },
+    ],
+  },
+});
+
+exports.loadFonts = ({ include, exclude, options } = {}) => ({
+  module: {
+    rules: [
+      {
+        // Capture eot, ttf, woff, and woff2
+        test: /\.(eot|ttf|woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
+        include,
+        exclude,
+
+        use: {
+          loader: 'file-loader',
+          options,
+        },
+      },
+    ],
+  },
+});
+
 exports.generateSourceMaps = ({ type }) => ({
   devtool: type,
 });
