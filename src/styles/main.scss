@@ -1,0 +1,31 @@
+@import './_variables.scss';
+
+html {
+  box-sizing: border-box !important;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit !important;
+}
+
+body {
+  background: $button-primary-color-alt;
+}
+
+.test {
+  background-color: blue;
+}
+
+.big {
+  display: flex;
+  justify-content: center;
+}

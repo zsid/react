@@ -1,0 +1,35 @@
+// Common colours for all pages of the application, based on style guide
+
+// scss-lintisable TrailingSemicolon
+$palettes: (
+  black: (
+    base: #000000,
+    focus: rgba(0, 0, 0, 0.12),
+    disabled-primary: rgba(0, 0, 0, 0.12),
+    disabled-secondary: rgba(0, 0, 0, 0.26),
+  ),
+  white: (
+    base: #fff,
+  ),
+  grey: (
+    base: rgba(158,158,158, 0.20),
+    active: rgba(158,158,158, 0.40),
+    dark: #727171,
+  ),
+  purple: (
+    base: #e50099,
+  ),
+  red: (
+    base: red,
+  ),
+  blue: (
+    base: rgb(63, 81, 181),
+  )
+);
+// Examples:
+// palette(red)
+// palette(red, light)
+
+@function palette($color, $tone: 'base') {
+  @return map-get(map-get($palettes, $color), $tone);
+}

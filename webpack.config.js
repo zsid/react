@@ -9,14 +9,14 @@ const PATHS = {
   app: path.join(__dirname, 'src'),
   build: path.join(__dirname, 'build'),
   appHTML: path.join(__dirname, 'public') + '/index.html',
-}
+};
 
 const commonConfig = merge([
   {
     entry: PATHS.app,
     output: {
       path: PATHS.build,
-      filename: 'bundle.js',
+      filename: '[name].js',
     },
     plugins: [
       new HtmlWebpackPlugin({
@@ -41,9 +41,12 @@ const commonConfig = merge([
     devtool: "source-map",
   },
   parts.loadJavascript(),
+  parts.loadCSS(),
 ]);
 
-const developmentConfig = {};
+const developmentConfig = merge([
+  parts.devServer(),
+]);
 
 const productionConfig = {};
 
