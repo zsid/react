@@ -8,7 +8,7 @@ const parts = require('./webpack.parts');
 const PATHS = {
   app: path.join(__dirname, 'src'),
   build: path.join(__dirname, 'build'),
-  appHTML: path.join(__dirname, 'public') + '/index.html',
+  appHTML: `${path.join(__dirname, 'public')}/index.html`,
 };
 
 const commonConfig = merge([
@@ -20,7 +20,7 @@ const commonConfig = merge([
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: PATHS.appHTML,        
+        template: PATHS.appHTML,
         inject: true,
       }),
     ],
@@ -41,6 +41,7 @@ const commonConfig = merge([
   },
   parts.loadJavascript(),
   parts.loadCSS(),
+  parts.lintJavascript(),
 ]);
 
 const developmentConfig = merge([

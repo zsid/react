@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --env development",
-    "build": "webpack --env production"
+    "build": "webpack --env production",
+    "eslint": "./node_modules/.bin/eslint src/",
+    "eslint:fix": "./node_modules/.bin/eslint src/ --fix"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,12 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.4",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
     "html-webpack-plugin": "^2.29.0",
     "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.6",

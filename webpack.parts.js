@@ -3,17 +3,17 @@ const autoprefixer = require('autoprefixer');
 
 const PATHS = {
   app: path.join(__dirname, 'src'),
-  build: path.join(__dirname, 'build')
-}
+  build: path.join(__dirname, 'build'),
+};
 
 exports.devServer = () => ({
   devServer: {
     overlay: {
       errors: true,
       warnings: true,
-    }
-  }
-})
+    },
+  },
+});
 
 exports.loadJavascript = () => ({
   module: {
@@ -24,11 +24,27 @@ exports.loadJavascript = () => ({
         include: PATHS.app,
         query: {
           cacheDirectory: true,
-          presets: ["react", "es2015", "stage-2"]
-        }
-      }
-    ]
-  }
+          presets: ['react', 'es2015', 'stage-2'],
+        },
+      },
+    ],
+  },
+});
+
+exports.lintJavascript = () => ({
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        enforce: 'pre',
+        loader: 'eslint-loader',
+        options: {
+          emitWarning: true,
+        },
+      },
+    ],
+  },
 });
 
 exports.loadCSS = () => ({
@@ -41,7 +57,7 @@ exports.loadCSS = () => ({
             loader: 'style-loader',
             options: {
               sourceMap: true,
-            }
+            },
           },
           {
             loader: 'css-loader',
@@ -51,7 +67,7 @@ exports.loadCSS = () => ({
               minimize: true,
               modules: true,
               sourceMap: true,
-            }
+            },
           },
           {
             loader: 'postcss-loader',
@@ -67,27 +83,27 @@ exports.loadCSS = () => ({
                   ],
                   flexbox: 'no-2009',
                 }),
-              ]
-            }
+              ],
+            },
           },
           {
             loader: 'resolve-url-loader',
             options: {
               sourceMap: true,
-            }
+            },
           },
           {
             loader: 'sass-loader',
             options: {
               modules: true,
               sourceMap: true,
-            }
-          }
+            },
+          },
         ],
-      }
-    ]
-  }
-})
+      },
+    ],
+  },
+});
 
 exports.generateSourceMaps = ({ type }) => ({
   devtool: type,
