@@ -40,7 +40,6 @@ const commonConfig = merge([
     },
   },
   parts.loadJavascript(),
-  parts.loadCSS(),
   parts.lintJavascript(),
   parts.loadFonts({
     options: {
@@ -52,6 +51,7 @@ const commonConfig = merge([
 const developmentConfig = merge([
   parts.devServer(),
   parts.generateSourceMaps({ type: 'cheap-module-source-map' }),
+  parts.loadCSS(),
 ]);
 
 const productionConfig = merge([
@@ -65,6 +65,7 @@ const productionConfig = merge([
       ),
     },
   ]),
+  parts.extractSCSS(),
 ]);
 
 module.exports = (env) => {
