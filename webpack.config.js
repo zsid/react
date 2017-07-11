@@ -54,8 +54,18 @@ const developmentConfig = merge([
   parts.generateSourceMaps({ type: 'cheap-module-source-map' }),
 ]);
 
-const productionConfig = {};
-
+const productionConfig = merge([
+  parts.extractBundles([
+    {
+      name: 'vendor',
+      minChunks: ({ resource }) => (
+        resource &&
+        resource.indexOf('node_modules') >= 0 &&
+        resource.match(/\.js$/)
+      ),
+    },
+  ]),
+]);
 
 module.exports = (env) => {
   if (env === 'production') {
