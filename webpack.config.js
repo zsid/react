@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const merge = require('webpack-merge');
+const webpack = require('webpack');
 
 // Webpack parts
 const parts = require('./webpack.parts');
@@ -40,17 +41,66 @@ const commonConfig = merge([
     },
   },
   parts.loadJavascript(),
-  parts.loadCSS(),
   parts.lintJavascript(),
+  parts.loadFonts({
+    options: {
+      name: '[name].[hash:8].[ext]',
+    },
+  }),
 ]);
 
 const developmentConfig = merge([
   parts.devServer(),
   parts.generateSourceMaps({ type: 'cheap-module-source-map' }),
+  parts.loadCSS(),
 ]);
 
-const productionConfig = {};
 
+const productionConfig = merge([
+  {
+    output: {
+      chunkFilename: '[name].[chunkhash:8].js',
+      filename: '[name].[chunkhash:8].js',
+    },
+    recordsPath: path.join(__dirname, 'records.json'),
+    plugins: [
+      new webpack.HashedModuleIdsPlugin(),
+    ],
+  },
+  parts.extractBundles([
+    {
+      name: 'vendor',
+      minChunks: ({ resource }) => (
+        resource &&
+        resource.indexOf('node_modules') >= 0 &&
+        resource.match(/\.js$/)
+      ),
+    },
+    {
+      name: 'manifest',
+      minChunks: Infinity,
+    },
+  ]),
+  parts.minifyJavaScript(),
+  parts.minifyCSS({
+    options: {
+      discardComments: {
+        removeAll: true,
+      },
+      // Run cssnano in safe mode to avoid
+      // potentially unsafe transformations.
+      safe: true,
+    },
+  }),
+  parts.extractSCSS(),
+  parts.loadImages(),
+  parts.attachRevision(),
+  parts.clean(),
+  parts.setFreeVariable(
+    'process.env.NODE_ENV',
+    'production'
+  ),
+]);
 
 module.exports = (env) => {
   if (env === 'production') {
