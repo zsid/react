@@ -3,6 +3,7 @@
 // Globals
 $global-padding: 10px;
 $global-margin: 10px;
+$global-section-padding: 20px;
 
 // Background colours
 $background-color-primary: palette(white);
@@ -23,3 +24,11 @@ $header-navigation-link-padding: 15px;
 $header-navigation-link-font-color: $font-color-primary;
 $header-logo-height: 50px;
 $header-logo-width: 130px;
+
+// Featured Work
+$featured-work-item-text-color: $font-color-accent;
+$featured-work-item-margin: $global-margin;
+$featured-work-item-flex: 0 0 250px;
+$featured-work-item-background-color: $background-color-primary;
+$featured-work-background-color: $background-color-secondary;
+$featured-work-text-color: $font-color-secondary;

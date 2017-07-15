@@ -316,7 +316,36 @@
       "node_modules/react-dom/lib/SyntheticKeyboardEvent.js": "zQ3w",
       "node_modules/fbjs/lib/getUnboundedScrollPosition.js": "znuk",
       "node_modules/react-dom/lib/DOMPropertyOperations.js": "zt3U",
-      "node_modules/symbol-observable/lib/ponyfill.js": "zzRL"
+      "node_modules/symbol-observable/lib/ponyfill.js": "zzRL",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--4-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/styles/main.scss": "67t3",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/Header/Header.js": "IE5j",
+      "node_modules/url-loader/index.js??ref--2!src/components/Header/images/logo.png": "dSCy",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/Header/index.js": "m5tV",
+      "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/Header/Header.scss": "yJ5I",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--4-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/Header/Header.scss": "ykdQ",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/Carousel/index.js": "1nGQ",
+      "node_modules/react-slick/lib/mixins/trackHelper.js": "AFBs",
+      "node_modules/react-slick/lib/arrows.js": "B2vf",
+      "node_modules/enquire.js/src/MediaQueryDispatch.js": "CXoh",
+      "node_modules/react-slick/lib/mixins/event-handlers.js": "DAdd",
+      "node_modules/create-react-class/index.js": "DT0+",
+      "node_modules/classnames/index.js": "HW6M",
+      "node_modules/can-use-dom/index.js": "IUvW",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/Carousel/Carousel.js": "Q90x",
+      "node_modules/react-slick/lib/initial-state.js": "QaOK",
+      "node_modules/react-slick/lib/inner-slider.js": "SKKH",
+      "node_modules/enquire.js/src/QueryHandler.js": "c+hy",
+      "node_modules/react-slick/lib/slider.js": "kAUe",
+      "node_modules/enquire.js/src/index.js": "kQue",
+      "node_modules/react-slick/lib/default-props.js": "pKWu",
+      "node_modules/react-slick/lib/index.js": "qmfj",
+      "node_modules/react-slick/lib/dots.js": "rylE",
+      "node_modules/enquire.js/src/MediaQuery.js": "t+OW",
+      "node_modules/string-convert/camel2hyphen.js": "tkZn",
+      "node_modules/react-slick/lib/track.js": "wyzo",
+      "node_modules/react-slick/lib/mixins/helpers.js": "x8a0",
+      "node_modules/json2mq/index.js": "xASX",
+      "node_modules/enquire.js/src/Util.js": "xFob"
     },
     "usedIds": {
       "+3i6": "+3i6",
@@ -588,7 +617,35 @@
       "zQ3w": "zQ3w",
       "znuk": "znuk",
       "zt3U": "zt3U",
-      "zzRL": "zzRL"
+      "zzRL": "zzRL",
+      "IE5j": "IE5j",
+      "dSCy": "dSCy",
+      "m5tV": "m5tV",
+      "yJ5I": "yJ5I",
+      "ykdQ": "ykdQ",
+      "1nGQ": "1nGQ",
+      "AFBs": "AFBs",
+      "B2vf": "B2vf",
+      "CXoh": "CXoh",
+      "DAdd": "DAdd",
+      "DT0+": "DT0+",
+      "HW6M": "HW6M",
+      "IUvW": "IUvW",
+      "Q90x": "Q90x",
+      "QaOK": "QaOK",
+      "SKKH": "SKKH",
+      "c+hy": "c+hy",
+      "kAUe": "kAUe",
+      "kQue": "kQue",
+      "pKWu": "pKWu",
+      "qmfj": "qmfj",
+      "rylE": "rylE",
+      "t+OW": "t+OW",
+      "tkZn": "tkZn",
+      "wyzo": "wyzo",
+      "x8a0": "x8a0",
+      "xASX": "xASX",
+      "xFob": "xFob"
     }
   },
   "chunks": {
@@ -603,5 +660,47 @@
       "1": 1,
       "2": 2
     }
-  }
+  },
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/styles/main.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/styles/main.scss": "0KUl",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+        },
+        "usedIds": {
+          "0KUl": "0KUl",
+          "FZ+f": "FZ+f"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "1": 1
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/Header/Header.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/Header/Header.scss": "yJ5I"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "yJ5I": "yJ5I"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "1": 1
+        }
+      }
+    }
+  ]
 }

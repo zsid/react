@@ -21,5 +21,6 @@ module.exports = {
         "dot-notation": OFF,
         "react/no-array-index-key": OFF,
         "react/require-default-props": OFF,
+        "no-console": OFF,
     }
 };

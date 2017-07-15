@@ -1,0 +1,52 @@
+@import '../../styles/_utility';
+@import '../../styles/_variables';
+
+.featured-work {
+  background-color:$featured-work-background-color;
+  color: $featured-work-text-color;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .items__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .item {
+      margin: $featured-work-item-margin;
+      flex: $featured-work-item-flex;
+      background-color: $featured-work-item-background-color;
+
+      &__wrapper {
+        width: 100%;
+        color: $featured-work-item-text-color;        
+        text-decoration: none;
+        display: inline-block;
+
+        img {
+          width: 100%;
+          height: 210px;
+        }
+      }
+
+      &__content {
+        padding: 10px;
+
+        &__title {
+          font-size: 22px;
+          letter-spacing: 1px;
+          margin-bottom: 10px;
+          font-weight: bold;
+        }
+
+        &__description {
+          height: 40px;
+          font-weight: 500;
+          font-size: 16px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+}
