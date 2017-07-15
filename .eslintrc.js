@@ -10,6 +10,11 @@ module.exports = {
         "node": true,
     },
     "extends": "airbnb",
+    "parser": 'babel-eslint',
+      "parserOptions": {
+        "sourceType": 'module',
+        "allowImportExportEverywhere": true,
+    },
     "rules": {
         "react/jsx-filename-extension": [WARN, { "extensions": [".js", ".jsx"] }],
         "react/forbid-prop-types": OFF,
