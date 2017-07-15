@@ -8,6 +8,6 @@ import HomePage from '../pages/HomePage/';
 export default (
   <CoreLayout>
     <Route exact path="/" component={HomePage} />
-    <Route exact path="/about-us" component={AboutPage} />
+    <Route exact path="/about" component={AboutPage} />
   </CoreLayout>
 );

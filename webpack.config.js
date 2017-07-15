@@ -42,6 +42,7 @@ const commonConfig = merge([
   },
   parts.loadJavascript(),
   parts.lintJavascript(),
+  parts.loadImages(),
   parts.loadFonts({
     options: {
       name: '[name].[hash:8].[ext]',
@@ -93,7 +94,6 @@ const productionConfig = merge([
     },
   }),
   parts.extractSCSS(),
-  parts.loadImages(),
   parts.attachRevision(),
   parts.clean(),
   parts.setFreeVariable(

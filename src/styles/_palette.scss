@@ -3,28 +3,22 @@
 // scss-lintisable TrailingSemicolon
 $palettes: (
   black: (
-    base: #000000,
-    focus: rgba(0, 0, 0, 0.12),
-    disabled-primary: rgba(0, 0, 0, 0.12),
-    disabled-secondary: rgba(0, 0, 0, 0.26),
+    base: #000b00,
   ),
   white: (
     base: #fff,
   ),
   grey: (
-    base: rgba(158,158,158, 0.20),
-    active: rgba(158,158,158, 0.40),
+    base: #afafb0,
+    light: #f3f3f2,
     dark: #727171,
   ),
   purple: (
     base: #e50099,
   ),
-  red: (
-    base: red,
+  transparent: (
+    base: rgba(0, 0, 0, 0)
   ),
-  blue: (
-    base: rgb(63, 81, 181),
-  )
 );
 // Examples:
 // palette(red)

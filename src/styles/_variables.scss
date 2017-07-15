@@ -1,79 +1,25 @@
-@import './palette.scss';
+@import './palette';
 
-/* Global variables */
-$global-margin: 10px;
+// Globals
 $global-padding: 10px;
+$global-margin: 10px;
 
-/* Font sizes */
-$global-font-size-standard: 16px;
+// Background colours
+$background-color-primary: palette(white);
+$background-color-secondary: palette(black);
 
-
-$color-background-primary: palette(white);
-$color-background-secondary: palette(black);
-
-$color-font-primary: palette(black);
-$color-font-secondary: palette(white);
-$color-font-accent: palette(purple);
+// Font colours
+$font-color-primary: palette(black);
+$font-color-secondary: palette(white);
+$font-color-accent: palette(purple);
 
 $color-button-accent: palette(purple);
 
-/* Header */
+// Header
+$header-background-color: $background-color-primary;
+$header-border-bottom: 2px solid $background-color-secondary;
 $header-navigation-font-size: 20px;
-$header-navigation-elements-padding: 20px;
-/* Buttons */
-
-// Default button colors.
-$button-primary-color: palette(grey);
-$button-secondary-color: palette(black);
-$button-hover-color: $button-primary-color;
-$button-active-color: palette(grey, active);
-$button-focus-color: palette(black, focus);;
-
-// Colored button colors.
-$button-primary-color-alt: palette(blue);
-$button-secondary-color-alt: palette(white);
-$button-hover-color-alt: $button-primary-color-alt;
-$button-active-color-alt: $button-primary-color-alt;
-$button-focus-color-alt: $button-focus-color;
-
-
-$button-hover-color: $button-primary-color;
-$button-focus-color: $button-focus-color;
-$button-active-color: $button-active-color;
-$button-primary-color-disabled: palette(black, disabled-primary);
-$button-secondary-color-disabled: palette(black, disabled-secondary);
-/* END */
-
-/* Form */
-$form-input-text-font-size: 16px;
-$form-input-text-width: 100%;
-$form-input-text-padding: 4px;
-$form-input-text-vertical-spacing: 20px;
-$form-input-text-bottom-border-color: $button-primary-color-alt;
-$form-input-text-error-color: palette(red);
-$form-input-text-button-size: 32px;
-$form-input-text-disabled-color: $button-primary-color-disabled;
-$form-input-text-floating-label-fontsize: 12px;
-$form-input-text-expandable-icon-top: 16px;
-$form-input-text-disabled-text-color: $button-secondary-color-disabled;
-
-
-/* Form */
-
-/* SHADOWS */
-$shadow-key-umbra-opacity: 0.2;
-$shadow-key-penumbra-opacity: 0.14;
-$shadow-ambient-shadow-opacity: 0.12;
-/* END */
-
-
-
-/************ Pages ************/
-
-// Home Page
-$home-page-title-font-size: 80px;
-$home-page-sub-title-font-size: 30px;
-$home-page-titles-letter-spacing: 5px;
-
-/************ End ************/
-
+$header-navigation-link-padding: 15px;
+$header-navigation-link-font-color: $font-color-primary;
+$header-logo-height: 50px;
+$header-logo-width: 130px;

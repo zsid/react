@@ -2,6 +2,7 @@
 
 html {
   box-sizing: border-box !important;
+  font-size: 62.5%;
 }
 
 html,
@@ -9,23 +10,11 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: sans-serif;
 }
 
 *,
 *:before,
 *:after {
   box-sizing: inherit !important;
-}
-
-body {
-  background: $button-primary-color-alt;
-}
-
-.test {
-  background-color: blue;
-}
-
-.big {
-  display: flex;
-  justify-content: center;
 }

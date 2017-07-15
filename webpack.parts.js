@@ -19,6 +19,7 @@ exports.devServer = () => ({
       errors: true,
       warnings: true,
     },
+    port: 3000,
   },
 });
 
@@ -116,7 +117,7 @@ exports.loadImages = () => ({
   module: {
     rules: [
       {
-        test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+        test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/, /\.svg$/],
         use: {
           loader: 'url-loader',
           options: {
