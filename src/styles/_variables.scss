@@ -8,6 +8,7 @@ $global-section-padding: 20px;
 // Background colours
 $background-color-primary: palette(white);
 $background-color-secondary: palette(black);
+$background-color-accent: palette(purple);
 
 // Font colours
 $font-color-primary: palette(black);
@@ -20,10 +21,10 @@ $color-button-accent: palette(purple);
 $header-background-color: $background-color-primary;
 $header-border-bottom: 2px solid $background-color-secondary;
 $header-navigation-font-size: 20px;
-$header-navigation-link-padding: 15px;
+$header-navigation-link-padding: 20px;
 $header-navigation-link-font-color: $font-color-primary;
 $header-logo-height: 50px;
-$header-logo-width: 130px;
+$header-logo-width: 180px;
 
 // Featured Work
 $featured-work-item-text-color: $font-color-accent;
@@ -32,3 +33,13 @@ $featured-work-item-flex: 0 0 250px;
 $featured-work-item-background-color: $background-color-primary;
 $featured-work-background-color: $background-color-secondary;
 $featured-work-text-color: $font-color-secondary;
+
+// Contact
+$contact-height: 350px;
+$contact-title-font-size: 35px;
+$contact-button-margin-top: 50px;
+$contact-button-padding: 20px;
+$contact-button-font-size: 20px;
+$contact-button-border: 2px solid $background-color-accent;
+$contact-button-background-color-hover: $font-color-accent;
+$contact-button-font-color-hover: $font-color-secondary;

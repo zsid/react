@@ -32,9 +32,11 @@ export default {
     },
     services: {
       title: 'Our Services',
-      services: [
-        'one',
-        'two',
+      listItems: [
+        'Full localization production (English-Japanese, Japanese-English, and all European languages)',
+        'Full voiceover production (arrangement of studios and actors)',
+        'Writing and scripting for games, publications, or broadcast',
+        'Television production services (on camera / behind the camera)',
       ],
     },
   },

@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Header from '../../components/Header';
-
-// import content from '../../config/content';
+import Footer from '../../components/Footer/';
 
 const CoreLayout = ({ children }) => (
   <div>
     <Header />
     {children}
+    <Footer />
   </div>
 );
 

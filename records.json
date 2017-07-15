@@ -19,7 +19,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -345,7 +345,61 @@
       "node_modules/react-slick/lib/track.js": "wyzo",
       "node_modules/react-slick/lib/mixins/helpers.js": "x8a0",
       "node_modules/json2mq/index.js": "xASX",
-      "node_modules/enquire.js/src/Util.js": "xFob"
+      "node_modules/enquire.js/src/Util.js": "xFob",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--4-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/Clients/Client.scss": "+piv",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/Footer/index.js": "+qIz",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/15ChronicleLogo.png": "/OcW",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/12logo_tec_top.gif": "/zih",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/config/content.js": "0axb",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--4-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/FeaturedWork/FeaturedWork.scss": "0m/V",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/10VIZ_Media_logo.png": "1QTO",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--4-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/Contact/Contact.scss": "21X8",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/tuttle.jpg": "3nYC",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/18_7ch_logo_3.jpg": "4jSn",
+      "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/Paragraph/Paragraph.scss": "5SD7",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/Contact/index.js": "5SvM",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/13D3_Publisher_logo.png": "73Dm",
+      "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/pages/HomePage/HomePage.scss": "78KE",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--4-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/Paragraph/Paragraph.scss": "9+E8",
+      "node_modules/url-loader/index.js??ref--2!src/components/FeaturedWork/images/dora1s.jpg": "9Zzg",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/3Disney_interactive_studios.png": "9bUU",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/9Taito-logo.png": "9fjx",
+      "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/Clients/Client.scss": "AH5z",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/7Bandai_Namco.png": "AUw7",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/8National_Geographic_Channel_Logo.png": "C3+h",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/2Capcom_logo.png": "Ey5w",
+      "node_modules/url-loader/index.js??ref--2!src/components/FeaturedWork/images/nioh.jpg": "Fmon",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/voyager.gif": "HVvp",
+      "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/FeaturedWork/FeaturedWork.scss": "HrEZ",
+      "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/Contact/Contact.scss": "Ia99",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/mori.gif": "JOzX",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--4-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/Footer/Footer.scss": "LeO/",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/0logo_nhk.png": "Lu4I",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--4-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/List/List.scss": "QkMP",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/17gamedesigh.gif": "SQDX",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/Clients/Clients.js": "Scq2",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/FeaturedWork/FeaturedWork.js": "SisE",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/0nhkworld.jpg": "Sv2l",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/6BANDAI.png": "WhC0",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/5Square_Enix_logo.png": "XKzv",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/List/List.js": "a5PH",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/incubot.jpg": "aLDl",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/List/index.js": "bhzL",
+      "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/List/List.scss": "cCFE",
+      "node_modules/url-loader/index.js??ref--2!src/components/FeaturedWork/images/strider.jpg": "dEde",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/Contact/Contact.js": "f74A",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/FeaturedWork/index.js": "fUsd",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/16Kodansha.jpg": "fcPZ",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--4-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/pages/HomePage/HomePage.scss": "gYSo",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/Paragraph/Paragraph.js": "i5Hp",
+      "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/Footer/Footer.scss": "kbIe",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/14discovery.jpeg": "lRSs",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/1cnngoV2_white_logo.jpg": "mXhg",
+      "node_modules/url-loader/index.js??ref--2!src/components/FeaturedWork/images/yokaiculture.jpg": "mjvn",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/Clients/index.js": "ruCO",
+      "node_modules/url-loader/index.js??ref--2!src/components/Clients/images/4Tecmo_logo.png": "smko",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/Paragraph/index.js": "yP1V",
+      "node_modules/babel-loader/lib/index.js??ref--0!node_modules/eslint-loader/index.js??ref--1!src/components/Footer/Footer.js": "z8S5"
     },
     "usedIds": {
       "+3i6": "+3i6",
@@ -645,7 +699,61 @@
       "wyzo": "wyzo",
       "x8a0": "x8a0",
       "xASX": "xASX",
-      "xFob": "xFob"
+      "xFob": "xFob",
+      "+piv": "+piv",
+      "+qIz": "+qIz",
+      "/OcW": "/OcW",
+      "/zih": "/zih",
+      "0axb": "0axb",
+      "0m/V": "0m/V",
+      "1QTO": "1QTO",
+      "21X8": "21X8",
+      "3nYC": "3nYC",
+      "4jSn": "4jSn",
+      "5SD7": "5SD7",
+      "5SvM": "5SvM",
+      "73Dm": "73Dm",
+      "78KE": "78KE",
+      "9+E8": "9+E8",
+      "9Zzg": "9Zzg",
+      "9bUU": "9bUU",
+      "9fjx": "9fjx",
+      "AH5z": "AH5z",
+      "AUw7": "AUw7",
+      "C3+h": "C3+h",
+      "Ey5w": "Ey5w",
+      "Fmon": "Fmon",
+      "HVvp": "HVvp",
+      "HrEZ": "HrEZ",
+      "Ia99": "Ia99",
+      "JOzX": "JOzX",
+      "LeO/": "LeO/",
+      "Lu4I": "Lu4I",
+      "QkMP": "QkMP",
+      "SQDX": "SQDX",
+      "Scq2": "Scq2",
+      "SisE": "SisE",
+      "Sv2l": "Sv2l",
+      "WhC0": "WhC0",
+      "XKzv": "XKzv",
+      "a5PH": "a5PH",
+      "aLDl": "aLDl",
+      "bhzL": "bhzL",
+      "cCFE": "cCFE",
+      "dEde": "dEde",
+      "f74A": "f74A",
+      "fUsd": "fUsd",
+      "fcPZ": "fcPZ",
+      "gYSo": "gYSo",
+      "i5Hp": "i5Hp",
+      "kbIe": "kbIe",
+      "lRSs": "lRSs",
+      "mXhg": "mXhg",
+      "mjvn": "mjvn",
+      "ruCO": "ruCO",
+      "smko": "smko",
+      "yP1V": "yP1V",
+      "z8S5": "z8S5"
     }
   },
   "chunks": {
@@ -677,7 +785,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
         }
       }
     }
@@ -698,7 +806,154 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "1": 1
+          "0": 0
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/Clients/Client.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/Clients/Client.scss": "AH5z",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+        },
+        "usedIds": {
+          "AH5z": "AH5z",
+          "FZ+f": "FZ+f"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/pages/HomePage/HomePage.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/pages/HomePage/HomePage.scss": "78KE",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+        },
+        "usedIds": {
+          "78KE": "78KE",
+          "FZ+f": "FZ+f"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/Paragraph/Paragraph.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/Paragraph/Paragraph.scss": "5SD7",
+          "node_modules/css-loader/lib/css-base.js": "FZ+f"
+        },
+        "usedIds": {
+          "5SD7": "5SD7",
+          "FZ+f": "FZ+f"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/List/List.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/List/List.scss": "cCFE"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "cCFE": "cCFE"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/FeaturedWork/FeaturedWork.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/FeaturedWork/FeaturedWork.scss": "HrEZ"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "HrEZ": "HrEZ"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/Contact/Contact.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/Contact/Contact.scss": "Ia99"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "Ia99": "Ia99"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--4-2!node_modules/postcss-loader/lib/index.js??ref--4-3!node_modules/resolve-url-loader/index.js??ref--4-4!node_modules/sass-loader/lib/loader.js??ref--4-5!src/components/Footer/Footer.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": "FZ+f",
+          "node_modules/css-loader/index.js?{\"importLoaders\":3,\"localIdentName\":\"[name]__[local]___[hash:base64:5]&sourceMap&-minimize\",\"minimize\":true,\"modules\":true,\"sourceMap\":true}!node_modules/postcss-loader/lib/index.js?{\"sourceMap\":true,\"plugins\":[null]}!node_modules/resolve-url-loader/index.js?{\"sourceMap\":true,\"absolute\":false,\"fail\":false,\"silent\":false,\"keepQuery\":false,\"debug\":false,\"root\":null,\"includeRoot\":false}!node_modules/sass-loader/lib/loader.js?{\"modules\":true,\"sourceMap\":true}!src/components/Footer/Footer.scss": "kbIe"
+        },
+        "usedIds": {
+          "FZ+f": "FZ+f",
+          "kbIe": "kbIe"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
         }
       }
     }

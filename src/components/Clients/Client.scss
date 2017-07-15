@@ -1,0 +1,15 @@
+@import '../../styles/_utility';
+
+.client {
+  &__logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      max-height: 50px;
+      margin: 10px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import '../../styles/_variables';
+
+.footer {
+  min-height: 80px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $background-color-primary;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: $font-color-primary;
+  font-weight: bold;
+  border-top: 2px solid black;
+}
