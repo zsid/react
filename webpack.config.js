@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const merge = require('webpack-merge');
+const webpack = require('webpack');
 
 // Webpack parts
 const parts = require('./webpack.parts');
@@ -43,7 +44,7 @@ const commonConfig = merge([
   parts.lintJavascript(),
   parts.loadFonts({
     options: {
-      name: '[name].[ext]',
+      name: '[name].[hash:8].[ext]',
     },
   }),
 ]);
@@ -57,11 +58,14 @@ const developmentConfig = merge([
 
 const productionConfig = merge([
   {
-    performance: {
-      hints: 'warning', // 'error' or false are valid too
-      maxEntrypointSize: 100000, // in bytes
-      maxAssetSize: 450000, // in bytes
+    output: {
+      chunkFilename: '[name].[chunkhash:8].js',
+      filename: '[name].[chunkhash:8].js',
     },
+    recordsPath: path.join(__dirname, 'records.json'),
+    plugins: [
+      new webpack.HashedModuleIdsPlugin(),
+    ],
   },
   parts.extractBundles([
     {
@@ -71,6 +75,10 @@ const productionConfig = merge([
         resource.indexOf('node_modules') >= 0 &&
         resource.match(/\.js$/)
       ),
+    },
+    {
+      name: 'manifest',
+      minChunks: Infinity,
     },
   ]),
   parts.minifyJavaScript(),
@@ -85,6 +93,7 @@ const productionConfig = merge([
     },
   }),
   parts.extractSCSS(),
+  parts.loadImages(),
   parts.attachRevision(),
   parts.clean(),
   parts.setFreeVariable(

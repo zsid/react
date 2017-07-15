@@ -121,7 +121,7 @@ exports.loadImages = () => ({
           loader: 'url-loader',
           options: {
             limit: 10000,
-            name: '[name].[ext]',
+            name: '[name].[hash:8].[ext]',
           },
         },
       },
@@ -160,7 +160,7 @@ exports.extractBundles = bundles => ({
 exports.extractSCSS = () => {
   // Output extracted CSS to a file
   const plugin = new ExtractTextPlugin({
-    filename: '[name].css',
+    filename: '[name].[contenthash:8].css',
   });
 
   return {
