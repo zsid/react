@@ -54,7 +54,15 @@ const developmentConfig = merge([
   parts.loadCSS(),
 ]);
 
+
 const productionConfig = merge([
+  {
+    performance: {
+      hints: 'warning', // 'error' or false are valid too
+      maxEntrypointSize: 100000, // in bytes
+      maxAssetSize: 450000, // in bytes
+    },
+  },
   parts.extractBundles([
     {
       name: 'vendor',
@@ -65,7 +73,24 @@ const productionConfig = merge([
       ),
     },
   ]),
+  parts.minifyJavaScript(),
+  parts.minifyCSS({
+    options: {
+      discardComments: {
+        removeAll: true,
+      },
+      // Run cssnano in safe mode to avoid
+      // potentially unsafe transformations.
+      safe: true,
+    },
+  }),
   parts.extractSCSS(),
+  parts.attachRevision(),
+  parts.clean(),
+  parts.setFreeVariable(
+    'process.env.NODE_ENV',
+    'production'
+  ),
 ]);
 
 module.exports = (env) => {
